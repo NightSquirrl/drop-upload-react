@@ -1,4 +1,3 @@
-import React, {ReactNode} from "react";
 
 type DropUploadProps = {
   children?: ReactNode;

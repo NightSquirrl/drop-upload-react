@@ -1,5 +1,6 @@
 import DropUpload from "./components/DropUpload.tsx";
 import React, {useState} from "react";
+// import {DropUpload} from "drop-upload"
 
 
 function App() {
