@@ -1,5 +1,5 @@
 {
-  "name": "drop-upload",
+  "name": "what-tools-react-drop-upload",
   "version": "1.0.0",
   "private": false,
   "description": "A simple drop upload",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/steveouyang/sto-ui"
+    "url": "https://github.com/NightSquirrl/drop-upload-react"
   },
   "keywords": [
     "drop",
     "upload"
   ],
-  "author": "steveouyang",
+  "author": "whattools",
   "license": "ISC"
 }

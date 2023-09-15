@@ -1,9 +1,10 @@
-import DropUpload from "./components/DropUpload.tsx";
+// import DropUpload from "./components/DropUpload.tsx";
 import React, {useState} from "react";
-// import {DropUpload} from "drop-upload"
+import {DropUpload} from "what-tools-react-drop-upload"
 
 
 function App() {
+    // 声明存储上传文件的变量
     const [fileData,setFileData] = useState(null)
     React.useEffect(()=> {
         console.log(fileData)
@@ -11,7 +12,7 @@ function App() {
     return (
         <div>
             <DropUpload setFileData={setFileData}>
-                <div>上传文件</div>
+                <div>upload File</div>
             </DropUpload>
         </div>
     );
